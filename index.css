@@ -1,0 +1,159 @@
+/** layout **/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+}
+
+main {
+    min-width: 550px;
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    background: #3A69D2;
+    padding: 50px 0px;
+    color: #ffffff; 
+}
+
+.content-container {
+    background: #1F2937;
+    padding: 30px;
+}
+
+/** typography **/
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 0px;  
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    font-size: 12px;
+    color: #D5D4D8;
+    margin: 0;
+}
+
+/**buttons **/
+
+button {
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;  
+}
+
+.service-btn {
+    font-family: 'Inter', sans-serif;
+    color: #4A4E74;
+    padding: 15px;
+    border-radius: 7px;
+    background: #D1D4F4;
+    font-size: 14px;
+    border: solid 2px #D1D4F4;
+}
+
+.invoice-btn {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: #3A69D2;
+    border: solid 2px #3A69D2;
+    border-radius: 7px;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.service-btn:hover,
+.service-btn:active,
+.invoice-btn:hover,
+.invoice-btn:active {
+    border: solid 2px #ffffff;
+}
+
+.remove-btn {
+    position: absolute;
+    left: 130px;
+    top: 10px;
+    border: none;
+    background: none;
+    color: #918E9B;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/** tasks **/
+
+.tasks-layout {
+    border-bottom: solid 1px #C3C6DB;
+    padding: 20px 0px; 
+    color: #F5F5F5;
+}
+
+.tasks-cat, .total-cat {
+    margin: 15px 0px 0px 0px;
+}
+
+.tasks-cat {
+    font-weight: 700;
+}
+
+.tasks-inner,
+.total-inner,
+.tasks-cat,
+.total-cat {
+    display: flex;
+    justify-content: space-between; 
+    padding: 5px;
+}
+
+.tasks-inner {
+    position: relative;
+}
+
+.accent {
+    color: #918E9B
+}
+
+/** total **/
+
+.total-layout {
+    padding: 0px 0px 30px 0px;
+}
+
+.total-inner {
+    align-items: center;
+    font-weight: 400;
+}
+
+.total-inner h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+
+

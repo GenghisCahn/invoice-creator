@@ -1,0 +1,53 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- font awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Invoice creator</h1>
+                <h3>Thanks for choosing GoodCorp, LLC!</h3>
+            </header>
+            
+            <section class="content-container">
+                <div class="btn-container" id="btn-container">
+                    <!-- buttons rendered here -->
+                </div>
+                
+                <section>
+                    <div class="tasks-cat">
+                        <p>TASK</p>
+                        <p>TOTAL</p>
+                    </div>
+                    <div class="tasks-layout" id="tasks-el">
+                        <!-- services rendered here -->
+                    </div>
+                </section>
+                
+                <section>
+                    <div class="total-cat">
+                        <p>NOTES</p>
+                        <p>TOTAL AMOUNT</p>
+                    </div>
+                    <div class="total-layout" >
+                        <div class="total-inner">
+                            <p>we accept cash, credit or PayPal</p>
+                            <h2 id="total-el">£0<!-- total amount rendered here --></h2>
+                         </div>
+                    </div>
+                </section>
+                
+                <button class="invoice-btn" id="invoice-btn"> <i class="fa-solid fa-envelope"></i> 
+                Send invoice</button>
+            </section>
+        </main>
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
